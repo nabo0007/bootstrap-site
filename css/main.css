@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
+
+* {
+    font-family: 'Roboto', sans-serif, 'Merriweather' serif;
+}
+
+#map {
+    background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=40.714728,-73.998672&zoom=12&size=400x400&maptype=roadmap&key=AIzaSyBUo7jL1fCO7X31-eM7quyZRBpuOT57fAs");
+    
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+/*    background-size: cover;*/
+    background-position: center;
+/*    back*/
+}
